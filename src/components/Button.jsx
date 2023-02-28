@@ -1,19 +1,25 @@
 import React from 'react'
 import { Button as MuiButton } from "@mui/material"
 
-
 export const Button = ({
-    color,
-    content,
-    action
+    variant,
+    action,
+    children
 }) => {
+    if(variant == "primary"){
+        variant = "text"
+    } else if(variant == "secondary"){
+        variant = "outlined"
+    }
+
     return (
         <>
 
-            <MuiButton color={color} onClick={action}>
-                <p>{content}</p>
+            <MuiButton variant={variant} onClick={action}>
+                {children}
             </MuiButton>
 
+            
         </>
     )
 }
