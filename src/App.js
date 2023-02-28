@@ -1,5 +1,4 @@
 import './App.css';
-import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
           Bienvenido a AlkyBank
         </p>
       </header>
-      <Footer/>
     </div>
    
   );
