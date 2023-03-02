@@ -5,8 +5,10 @@ import { Box } from "@mui/system";
 import AlkyIcon from "./AlkyIcon";
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
+import navArrayLinks from "../../constants/navArrayLinks";
 
-const NavBar = ({ navArrayLinks }) => {
+
+const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (

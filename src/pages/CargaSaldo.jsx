@@ -15,10 +15,6 @@ const CargaSaldo = () => {
       <Card
         sx={{
           mt: 5,
-          // transition: "0.2s",
-          // "&:hover":{
-          //   transform:"scale(1.05)",
-          // },
         }}
       >
         <CardContent>
