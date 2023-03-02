@@ -1,5 +1,5 @@
-const IconAlky = () => {
+const AlkyIcon = () => {
   return <img src={"./alkemy_logo.svg"} className="App-logo" alt="logo" />;
 };
 
-export default IconAlky;
+export default AlkyIcon;

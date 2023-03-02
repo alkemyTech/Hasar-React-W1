@@ -2,7 +2,7 @@ import { AppBar, Button, Drawer, IconButton, Toolbar } from "@mui/material";
 import { useState } from "react";
 import NavListDrawer from "./NavListDrawer";
 import { Box } from "@mui/system";
-import IconAlky from "./IconAlky";
+import AlkyIcon from "./AlkyIcon";
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
 
@@ -23,7 +23,7 @@ const NavBar = ({ navArrayLinks }) => {
             <MenuIcon />
           </IconButton>
           <NavLink to="/">
-            <IconAlky />
+            <AlkyIcon />
           </NavLink>
 
           <Box sx={{ flexGrow: 1 }} display={{ xs: "none", sm: "block" }}>

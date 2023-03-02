@@ -1,16 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/navbar/NavBar";
-import Balance from "./components/pages/Balance";
-import CargaSaldo from "./components/pages/CargaSaldo";
-import EnvioDinero from "./components/pages/EnvioDinero";
-import Gastos from "./components/pages/Gastos";
-import Login from "./components/pages/Login";
-import Movimientos from "./components/pages/Movimientos";
+import Balance from "./pages/Balance";
+import CargaSaldo from "./pages/CargaSaldo";
+import EnvioDinero from "./pages/EnvioDinero";
+import Gastos from "./pages/Gastos";
+import Login from "./pages/Login";
+import Movimientos from "./pages/Movimientos";
 
 import PersonIcon from "@mui/icons-material/Person";
 import CategoryIcon from "@mui/icons-material/Category";
-import Home from "./components/pages/Home";
+import Home from "./pages/Home";
 
 const navArrayLinks = [
   {
