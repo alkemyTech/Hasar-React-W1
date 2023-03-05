@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  width: 300px;
+  width: 110px;
+  display: flex;
 }
 
 .App-header {
