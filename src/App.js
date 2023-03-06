@@ -1,15 +1,17 @@
+import { Provider } from 'react-redux';
 import './App.css';
+import Movimientos from './pages/Movimientos';
+
 
 function App() {
   return (
+    <Provider>
     <div className="App">
       <header className="App-header">
-        <img src={'./alkemy_logo.svg'} className="App-logo" alt="logo" />
-        <p>
-          Bienvenido a AlkyBank
-        </p>
+        <Movimientos />
       </header>
     </div>
+    </Provider>
   );
 }
 
